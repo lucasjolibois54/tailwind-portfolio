@@ -47,3 +47,10 @@ body {
     background-color: #28282d;
    }
    
+   #soon{
+    background-color: #FCCB4F;
+   }
+
+   .z-index-nav{
+    z-index: 999 !important;
+   }
