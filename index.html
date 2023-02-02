@@ -12,28 +12,45 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body class="max-w-5xl mx-auto">
+      <div class="">
+        <div class="bg-gray-900 pt-2 pb-2 fixed bottom-0 z-20 w-screen space-x-4 text-center text-white md:hidden">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
 
+      <div class="mx-4 md:mx-0">
+        
         <!-- Navigation -->
-        <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-            <div class="flex items-center text-white mr-6">
-              <span class="text-gray-500 text-xl tracking-tight">Lucas Jolibois</span>
+      <header>
+        <nav class="flex flex-wrap items-center justify-between w-full py-8 text-lg text-gray-700">
+          <div>
+            <a href="#">
+            <p>Lucas Jolibois</p>
+            </a>
+          </div>
+            
+        <div class="hidden w-full md:flex md:items-center md:w-auto" >
+          <ul class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0">
+            <li>
+              <a class="md:p-4 py-2 block" href="#">Projects</a>
+            </li>
+            <li>
+              <a class="md:p-4 py-2 block" href="#">About</a>
+            </li>
+            <li>
+              <a class="md:p-4 py-2 block" href="#">Compotencies</a>
+            </li>
+              </ul>
             </div>
-            </div>
-            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-              <div class="text-sm lg:flex-grow">
-                <a href="#" class="text-gray-500block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                  Docs
-                </a>
-              </div>
-              <div>
-                <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
-              </div>
-            </div>
-          </nav>
+        </nav>
+      </header>
 
         <!-- Hero -->
         <main>
-                <div class='mt-32 xsm:mt-36 2xl:mt-60 items-center'>
+          <div class='mt-32 xsm:mt-36 2xl:mt-60 items-center'>
         <h1 id="parent" data-aos="fade-up" class='sm:leading-tight text-2xl xsm:text-3xl sm:text-5xl md:text-6xl 2xl:text-7xl 2xl:leading-none text-left '>I’m a <b>Frontend Developer</b>, with an <b>altruistic</b> and <b>problem solving</b> mindset. I enjoy designing and creating things that lives on the web.👨‍💻</h1>
     </div>
 
@@ -64,8 +81,8 @@
     </div>
 
     <div data-aos-anchor="#parent" data-aos="fade-up" data-aos-delay="950" data-aos-duration="500" class="md:p-5 sm:p-2 text-center bg-transparent  sm:col-start-3 sm:col-end-4">
-    <p class='mt-5 text-left text-gray-500 text-lg px-2 font-extralight'><b>Social as</b></p>
-    <p class='mt-2 text-left text-gray-400 text-sm px-2 font-extralight'> <a class='hyper-hover cursor-pointer'  href="https://github.com/lucasjolibois54" target="_blank" rel="noreferrer">GitHub: lucasjolibois54</a> <br/>  <a class='hyper-hover cursor-pointer'  href="https://www.aedin.com/in/lucas-bendix-jolibois/" target="_blank" rel="noreferrer">aedIn: Lucas Bendix Jolibois</a> <br/>  <a class='hyper-hover cursor-pointer'  href="mailto:lucasjolibois@icloud.com" >E-mail: lucasjolibois@icloud.com</a></p>
+    <p class='mt-5 text-left text-gray-500 text-lg px-2 font-extralight'><b>Social Links</b></p>
+    <p class='mt-2 text-left text-gray-400 text-sm px-2 font-extralight'> <a class='hyper-hover cursor-pointer'  href="https://github.com/lucasjolibois54" target="_blank" rel="noreferrer">GitHub: lucasjolibois54</a> <br/>  <a class='hyper-hover cursor-pointer'  href="https://www.aedin.com/in/lucas-bendix-jolibois/" target="_blank" rel="noreferrer">LinkedIn: Lucas Bendix Jolibois</a> <br/>  <a class='hyper-hover cursor-pointer'  href="mailto:lucasjolibois@icloud.com" >E-mail: lucasjolibois@icloud.com</a></p>
     </div>
     </div>
     </div>
@@ -74,17 +91,17 @@
 
 <!-- Projects -->
 <section>
-    <div class='max-w-5xl mx-auto pt-20 mb-10'>
-        <h2 class='text-4xl'><b>&#47;&#47; Featured Projects</b></h2>
+    <div class='pt-20 mb-10'>
+        <h2 class='text-2xl md:text-4xl'><b>&#47;&#47; Featured Projects</b></h2>
 
-        <div class='grid sm:grid-cols-2 gap-2 sm:grid-flow-row mt-10'>
-    <div data-aos="fade-up" data-aos-once='true' data-aos-duration="500" class="p-5 sm:p-2 text-center bg-transparent sm:col-start-1 sm:col-end-2">
+        <div class='grid sm:grid-cols-2 gap-2 sm:grid-flow-row mt-5 md:mt-10'>
+    <div data-aos="fade-up" data-aos-once='true' data-aos-duration="500" class="py-5 sm:p-2 text-center bg-transparent sm:col-start-1 sm:col-end-2">
     <a href="/lbfitness"><img src='https://res.cloudinary.com/dckwf6med/image/upload/v1663262033/Portfolio/Free_MacBook_Pro_2_1_1_1_yro5ai.webp' alt='Project Image' class='project-cursor-preview transition duration-300 group transform hover:-translate-y-3 rounded-xl hover:shadow-2xl w-full sm:w-5/6 cursor-pointer'/></a>
     <p class='mt-2 text-left text-gray-400 text-sm px-2 font-extralight'> <b>LB | Fitness </b></p>
     <a href="/lbfitness"><p class='block a cursor-pointer mt-1 text-left text-gray-900 text-sm px-2 font-extralight max-w-sm'><span>LB Fitness is a free-to-use fitness platform. It contains workoutplans, diet plans, blogs ans so much more ...</span></p></a>    </div>
 
 
-    <div data-aos="fade-up" data-aos-once='true' data-aos-delay="100" data-aos-duration="500" class="p-5 sm:p-2 text-center bg-transparent  sm:col-start-2 sm:col-end-4 sm:mt-20">
+    <div data-aos="fade-up" data-aos-once='true' data-aos-delay="100" data-aos-duration="500" class="py-5 sm:p-2 text-center bg-transparent  sm:col-start-2 sm:col-end-4 sm:mt-20">
     <a href="/iweather"><img src='https://res.cloudinary.com/dckwf6med/image/upload/v1663264475/Portfolio/Sk%C3%A6rmbillede_2022-09-15_kl._19.54.10_rnl4gl.webp' alt='Project Image' class='project-cursor-preview transition duration-300 group transform hover:-translate-y-3 rounded-xl hover:shadow-2xl w-full sm:w-5/6 cursor-pointer'/></a>
     <p class='mt-2 text-left text-gray-400 text-sm px-2 font-extralight'> <b>iWeather </b></p>
     <a href="/iweather"><p class='block a cursor-pointer mt-1 text-left text-gray-900 text-sm px-2 font-extralight max-w-sm'> <span>iWeather is a PWA SPA weather web application giving you access to current weather data for any location on Earth ...</span></p></a>
@@ -94,12 +111,12 @@
 
 
     <div class='grid sm:grid-cols-2 gap-2 sm:grid-flow-row mt-10'>
-    <div data-aos="fade-up" data-aos-once='true' data-aos-duration="500" class="p-5 sm:p-2 text-center bg-transparent sm:col-start-1 sm:col-end-2">
+    <div data-aos="fade-up" data-aos-once='true' data-aos-duration="500" class="py-5 sm:p-2 text-center bg-transparent sm:col-start-1 sm:col-end-2">
     <a href="/unvoit"><img src='https://res.cloudinary.com/dckwf6med/image/upload/v1663266070/Portfolio/Sk%C3%A6rmbillede_2022-09-15_kl._20.20.41_mm9rwy.webp' alt='Project Image' class='project-cursor-preview transition duration-300 group transform hover:-translate-y-3 rounded-xl hover:shadow-2xl w-full sm:w-5/6 cursor-pointer'/></a>
     <p class='mt-2 text-left text-gray-400 text-sm px-2 font-extralight'> <b>Unvoit </b></p>
     <a href="/unvoit"><p class='block a cursor-pointer mt-1 text-left text-gray-900 text-sm px-2 font-extralight max-w-sm'><span> Unvoit is a business based invoice management web application developed using the framework Vue.js ...</span></p></a>    </div>
 
-    <div data-aos="fade-up" data-aos-once='true' data-aos-delay="100" data-aos-duration="500" class="p-5 sm:p-2 text-center bg-transparent  sm:col-start-2 sm:col-end-4 sm:mt-20">
+    <div data-aos="fade-up" data-aos-once='true' data-aos-delay="100" data-aos-duration="500" class="py-5 sm:p-2 text-center bg-transparent  sm:col-start-2 sm:col-end-4 sm:mt-20">
     <img src='https://res.cloudinary.com/dckwf6med/image/upload/v1663266223/Portfolio/Sk%C3%A6rmbillede_2022-09-15_kl._20.23.14_wurlvd.webp' alt='Project Image' class='project-cursor-preview transition duration-300 group transform hover:-translate-y-3 rounded-xl hover:shadow-2xl w-full sm:w-5/6 cursor-pointer'/>
     <p class='mt-2 text-left text-gray-400 text-sm px-2 font-extralight'> <b>PlannerX </b></p>
     <p class='block a cursor-pointer mt-1 text-left text-gray-900 text-sm px-2 font-extralight max-w-sm'><span> Planner X is a work management system developed to help you manage your &quot;work team&quot; and improve your workflow and structure ...</span></p>    </div>
@@ -159,6 +176,7 @@
         © 2023- LUCAS BENDIX JOLIBOIS</p>
         </a>
 </footer>
+</div>
 
 
             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
