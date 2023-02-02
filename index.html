@@ -11,7 +11,7 @@
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
-    <body class="max-w-5xl mx-auto">
+    <body id="top" class="max-w-5xl mx-auto">
       <div class="">
         <div class="bg-gray-900 pt-2 pb-2 fixed bottom-0 z-20 w-screen space-x-4 text-center text-white md:hidden">
             <a href="#home">Home</a>
@@ -27,7 +27,7 @@
       <header>
         <nav class="flex flex-wrap items-center justify-between w-full py-8 text-lg text-gray-700">
           <div>
-            <a href="#">
+            <a href="#top">
             <p>Lucas Jolibois</p>
             </a>
           </div>
@@ -35,13 +35,13 @@
         <div class="hidden w-full md:flex md:items-center md:w-auto" >
           <ul class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0">
             <li>
-              <a class="md:p-4 py-2 block" href="#">Projects</a>
+              <a class="md:p-4 py-2 block" href="#projects">Projects</a>
             </li>
             <li>
-              <a class="md:p-4 py-2 block" href="#">About</a>
+              <a class="md:p-4 py-2 block" href="#about">About</a>
             </li>
             <li>
-              <a class="md:p-4 py-2 block" href="#">Compotencies</a>
+              <a class="md:p-4 py-2 block" href="#comp">Compotencies</a>
             </li>
               </ul>
             </div>
@@ -91,7 +91,7 @@
 
 <!-- Projects -->
 <section>
-    <div class='pt-20 mb-10'>
+    <div id="projects" class='pt-20 mb-10'>
         <h2 class='text-2xl md:text-4xl'><b>&#47;&#47; Featured Projects</b></h2>
 
         <div class='grid sm:grid-cols-2 gap-2 sm:grid-flow-row mt-5 md:mt-10'>
@@ -136,7 +136,7 @@
 
 
 <!-- About -->
-<div class="max-w-5xl mx-auto pt-28 mt-36">
+<div id="about" class="max-w-5xl mx-auto pt-28 mt-36">
     <p data-aos="fade-up" data-aos-once='true' data-aos-duration="500" class="max-w-2xl text-xl leading-normal">
       <b>I develop</b> the perfect blend of <b>function</b> and <b>aesthetic</b> across all
       digital products be it a website, store or application. By designing
@@ -147,7 +147,7 @@
         
 
   <!-- Projects -->
-  <div class='max-w-5xl mx-auto pt-20 mb-10 flex flex-col sm:flex-row gap-3'>
+  <div id="comp" class='max-w-5xl mx-auto pt-20 mb-10 flex flex-col sm:flex-row gap-3'>
 
     <div data-aos="fade-up" data-aos-once='true' data-aos-duration="500" class='w-full sm:w-3/6 bg-gray-100 text-gray-900 py-5 px-7 rounded-xl'>
         <h2>
